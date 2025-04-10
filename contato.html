@@ -10,6 +10,7 @@
     <header>
         <div class="caixa">
             <h1><img src="logo.png"></h1>
+
             <nav>  
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -27,12 +28,39 @@
             <label for="email">Email</label>
             <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
             
-            <input type="submit" value="Enviar" class="enviar">
+            <label for="telefone">telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+            <label for="mensagem">mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao">
+            </textarea>
+
+            <fieldset>
+            <P>Como prefere nosso contato</P>
+            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">telefone</label>
+
+            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">whatsapp</label>
+            </fieldset>
+
+            <fieldset>
+              <p>Qual horário prefere ser atendido</p>
+              <select>
+                <opitio>Manhã</opitio>
+                <option>Tarde</option>
+                <option>Noite</option>
+              </select>
+            </fieldset>
+
+            <label class="cheackbox"><input type="cheackbox">Gostaria de receber nossas novidades por email</label>
+            
+            <input type="submit" value="Enviar formulário" class="Enviar">
+
         </form>
     </main>
     <footer>
         <img src="logo-branco.png">
-        <p class="copyright">&copy; Criado por Prof Weslly - 2025</p>
+        <p class="copyright">&copy; Criado por Nicolas - 2025</p>
     </footer>
 </body>
 </html>
