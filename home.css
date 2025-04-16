@@ -4,13 +4,20 @@ body{
 	font-family:'Roboto', sans-serif;
 }
 
-#banner {
+.banner {
 	width:100%;
 }
 
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
 .principal{
-	background: #CCCCCC;
 	padding: 3em 0;
+	background:#ffffff;
 	width: 940px;
 	margin: 0 auto;
 }
